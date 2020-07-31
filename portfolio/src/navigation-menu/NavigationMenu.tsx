@@ -14,4 +14,3 @@ const NavigationMenu = () => (
 );
 
 export default NavigationMenu;
- NavigationMenu;
