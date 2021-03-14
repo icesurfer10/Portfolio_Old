@@ -1,15 +1,14 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import NavigationMenu from "./navigation-menu/NavigationMenu";
-import { Home } from "./home/Home";
+import React from 'react';
+import './App.css';
+import Layout from './components/Layout';
+import Home from './views/Home/Home';
+
 
 function App() {
   return (
-    <div id="appContainer">
-      <NavigationMenu />
-      <Home />
-    </div>
+    <Layout>
+      <Home/>
+    </Layout>
   );
 }
 
